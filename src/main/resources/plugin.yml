@@ -1,0 +1,34 @@
+name: CommandsPlugin
+version: ${project.version}
+main: me.seeok.commandsplugin.CommandsPlugin
+api-version: 1.16
+authors: [ Seeok ]
+description: Commands
+commands:
+  death:
+    description: Die fool.
+    aliases: [death, endme, killed]
+  god:
+    description: Makes you invincible.
+    aliases: [invincible, inv]
+  feed:
+    description: Gives you max saturation/food level.
+    aliases: [food]
+  ungod:
+    description: Takes invincibility away (Removes god power).
+    aliases: [uninvincible, uninv]
+  givehealth:
+    description: Heals you back up to 10 full hearts.
+    aliases: [heal, healme, hearts, heart, GiveHealth, giveHealth, Givehealth]
+  sendword:
+    description: Sends a word.
+    aliases: [send]
+  vault:
+    description: Open the Vault.
+    aliases: [chest]
+  waterbreathe:
+    description: Be able to breathe underwater.
+    aliases: [wb]
+  unwaterbreathe:
+    description: Stop being able to waterbreathe.
+    aliases: [dewb]
